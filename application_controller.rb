@@ -21,10 +21,7 @@ class ApplicationController < Sinatra::Base
     @user_playlist.get_info
     @user_playlist.get_all_lyrics
     
-    # @user_title = params[:title]
-    # @user_artist = params[:artist]
-    # @user_song = Song.new(@user_title,@user_artist,"http://")
-    # @user_song.get_lyrics
+    
     
     erb :result
   end
